@@ -13,16 +13,21 @@ interface Printable{
     void print();  
 }  
 interface Showable{  
-    void print();  
+    void print1();  
 }  
    
 class TestTnterface1 implements Printable,Showable{  
     public void print() {
         System.out.println("Hello");
-    }  
+    } 
+    public void print1(){
+        System.out.println("hi");
+    }
+  
      
     public static void main(String args[]) {  
         TestTnterface1 obj = new TestTnterface1();  
         obj.print();  
+        obj.print1();
     }
 }  
