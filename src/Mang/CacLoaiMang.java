@@ -36,7 +36,10 @@ public class CacLoaiMang {
         
         System.out.println("------------------------------------");
         Arrays.sort(cars);
-            System.out.println("");
+            System.out.println("array after sort: ");
+            for (String carz : cars) {
+            System.out.println(car);
+        }
         
     }
 }
